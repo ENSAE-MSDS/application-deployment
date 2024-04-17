@@ -5,7 +5,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/ENSAE-MSDS/MAP_DataScience.git
+    repoURL: https://github.com/ENSAE-MSDS/application-deployment.git
     targetRevision: master
     path: deployment
   destination:

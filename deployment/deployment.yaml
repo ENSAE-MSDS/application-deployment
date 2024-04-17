@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: mapds
-        image: yoriknyssen/mapds:latest
+        image: yoriknyssen/mapds:v0.0.1
         ports:
         - containerPort: 5000
