@@ -8,9 +8,9 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - mapds-RI-NY-RA-DR.kub.sspcloud.fr
+    - mapds.kub.sspcloud.fr
   rules:
-  - host: mapds-RI-NY-RA-DR.kub.sspcloud.fr
+  - host: mapds.kub.sspcloud.fr
     http:
       paths:
       - path: /
