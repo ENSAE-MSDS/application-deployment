@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mapds-service
+spec:
+  selector:
+    app: mapds
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 5000

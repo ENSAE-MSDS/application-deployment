@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mapds-deployment
+  labels:
+    app: mapds
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mapds
+  template:
+    metadata:
+      labels:
+        app: mapds
+    spec:
+      containers:
+      - name: mapds
+        image: yoriknyssen/mapds:latest
+        ports:
+        - containerPort: 5000
